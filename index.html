@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Wafaa - Developer & Designer.</title>
+    <meta name="title" content="Wafaa - UI developer & designer." />
+    <meta
+      name="description"
+      content="This is a personal portfolio template made by codesithsadee"
+    />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preload" as="image" href="./assets/images/banner.jpeg" />
+    <link rel="preload" as="image" href="./assets/images/Blog.svg" />
+  </head>
+  <body>
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo-dark.svg"
+            width="64"
+            height="24"
+            alt="Wafaa home"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo-light.svg"
+                width="64"
+                height="24"
+                alt="Wafaa home"
+              />
+            </a>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li><a href="#" class="navbar-link">Home</a></li>
+            <li><a href="#" class="navbar-link">About</a></li>
+            <li><a href="#project" class="navbar-link">Projects</a></li>
+            <!-- <li><a href="#" class="navbar-link">Blog</a></li> -->
+            <li><a href="#contact" class="navbar-link">Contact</a></li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:wafaagaafar@email.com" class="contact-link"
+              >wafaagaafar@gmail.com</a
+            >
+            <a href="tel:00971501644930" class="contact-link"
+              >00 (971) 164 49 30</a
+            >
+          </div>
+          <ul class="social-list">
+            <li>
+              <a target="_blank" href="https://www.behance.net/wafaagaafar" class="social-link"
+                ><ion-icon name="logo-behance"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://dribbble.com/WafaJ3fr" class="social-link"
+                ><ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <div class="overlay active" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- HERO -->
+
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/Locket_1701097308540_63.jpg"
+                width="560"
+                height="540"
+                alt=""
+                class="w-100"
+                data-reveal="top"
+              />
+              <!-- <img
+                src="./assets/images/hero-shape.svg"
+                class="shape"
+                width="203"
+                height="91"
+                alt="250+ Projects Done"
+                data-reveal="top"
+                data-reveal-delay="0.25s"
+              /> -->
+            </figure>
+            <div class="hero-content">
+              <h1
+                class="h1 hero-title"
+                data-reveal="top"
+                data-reveal-delay="0.5s"
+              >
+                Developer & Designer
+              </h1>
+              <p
+                class="section-text"
+                data-reveal="top"
+                data-reveal-delay="0.75s"
+              >
+                Hello! I'm Wafaa, developer & designer based in Abu Dhabi. I'm
+                very passionate about the work I do.
+              </p>
+              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                <a href="#project" class="btn btn-primary">See My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <div class="wrapper">
+              <div data-reveal="left">
+                <h2 class="h2 section-title">What I Do?</h2>
+                <p class="section-text"></p>
+              </div>
+              <ul class="progress-list" data-reveal="right">
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Web Design</p>
+                    <span>100 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 100%; background-color: #c7b1dd"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Mobile Design</p>
+                    <span>90 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 90%; background-color: #8caeec"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Development</p>
+                    <span>85 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 85%; background-color: #b0d4c1"
+                    ></div>
+                  </div>
+                </li>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Graphic Design</p>
+                    <span>95 %</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 95%; background-color: #e3a6b6"
+                    ></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <ul class="grid-list">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="assets/images/icon-1.svg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web design icon"
+                    />
+                  </div>
+                  <h3 class="h4 card-title">Web Design</h3>
+                  <p class="card-tex">
+                    I bring a wealth of experience in web design, having worked
+                    on numerous projects that showcase my expertise in creating
+                    user-centric websites.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="assets/images/icon-2.svg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="mobile design icon"
+                    />
+                  </div>
+                  <h3 class="h4 card-title">Mobile Design</h3>
+                  <p class="card-tex">
+                    With a specialized focus on mobile design, my expertise
+                    encompasses a deep understanding of responsive design
+                    principles.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom" data-reveal-delay="0.5s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="assets/images/icon-3.svg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web development icon"
+                    />
+                  </div>
+                  <h3 class="h4 card-title">Development</h3>
+                  <p class="card-tex">
+                    Proficient in languages such as HTML, CSS, JavaScript, and
+                    beyond, I have successfully translated design concepts into
+                    fully interactive and responsive web applications.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="assets/images/icon-6.svg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web seo icon"
+                    />
+                  </div>
+                  <h3 class="h4 card-title">Graphic Design</h3>
+                  <p class="card-tex">
+                    I practice graphic Design artistically and with my own
+                    perspective of the world. I rarely follow design rules but I
+                    do what it takes to deliver high quality design.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section
+          class="section project"
+          id="project"
+          aria-labelledby="project-label"
+        >
+          <div class="container">
+            <div class="title-wrapper" data-reveal="top">
+              <div>
+                <h2 class="h2 section-title" id="project-label">
+                  Latest Projects
+                </h2>
+                <p class="section-text">
+                  Check out some of my latest projects with creative ideas.
+                </p>
+              </div>
+              <a target="_blank" href="https://dribbble.com/WafaJ3fr" class="btn btn-secondary">See All Projects</a>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="project-card project-card-1"
+                  style="background-color: #f5f1ed"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #604b33">
+                      Mobile & Web Design
+                    </p>
+                    <h3 class="h3 card-title">Blogy</h3>
+                    <p class="card-text">
+                      Our platform is designed to foster a community of
+                      like-minded individuals who share a passion for
+                      Technology, design, trends, lifestyles, and a lot more
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://wafaj3fr.github.io/blogy/"
+                      class="btn-text"
+                      style="color: #70604d"
+                    >
+                      <span class="span">See Project</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="assets/images/blogyfav.png"
+                      width="650"
+                      height="370"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-2"
+                  style="background-color: #98878017"
+                >
+                  <div class="card-content" data-reveal="right">
+                    <p class="card-tag" style="color: #d98224">Web Design</p>
+                    <h3 class="h3 card-title">dprod</h3>
+                    <p class="card-text">
+                      As a premier digital product design agency, we specialize
+                      in transforming ideas into user-centric, visually
+                      stunning, and technologically advanced digital products.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://wafaj3fr.github.io/dprod/"
+                      class="btn-text"
+                      style="color: #d98224"
+                    >
+                      <span class="span">See Project</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="assets/images/dprod2.png"
+                      width="600"
+                      height="367"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-3"
+                  style="background-color: #f5faf7"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #7cb798">Mobile Design</p>
+                    <h3 class="h3 card-title">Fella products</h3>
+                    <p class="card-text">
+                      A platform that is dedicated to curating a collection of
+                      minimalist products. Embrace the essence of minimalism and
+                      elevate your lifestyle with our thoughtfully curated
+                      selection.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://flolaplants.wordpress.com/"
+                      class="btn-text"
+                      style="color: #7cb798"
+                    >
+                      <span class="span">See Project</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="assets/images/fella.png"
+                      width="650"
+                      height="370"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-4"
+                  style="background-color: #604b331d"
+                >
+                  <div class="card-content" data-reveal="right">
+                    <p class="card-tag" style="color: #604b33">Mobile Design</p>
+                    <h3 class="h3 card-title">Crafti</h3>
+                    <p class="card-text">
+                      With a commitment to excellence and a passion for
+                      artisanal techniques, we bring you a curated selection of
+                      handcrafted treasures that add beauty and character to
+                      your life.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://wafaj3fr.github.io/crafti/"
+                      class="btn-text"
+                      style="color: #604b33"
+                    >
+                      <span class="span">See Project</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="assets/images/crafti22.png"
+                      width="620"
+                      height="370"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section
+          class="section project"
+          id="project"
+          aria-labelledby="project-label"
+        >
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <h2 class="h2 section-title">Graphic Design projects</h2>
+                <p class="section-title">View My Graphic Design Projects</p>
+              </div>
+              <a target="_blank" href="https://www.behance.net/wafaagaafar" class="btn btn-secondary">See All Projects</a>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="project-card project-card-x"
+                  style="background-color: #edf5f3"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #656f69">
+                      Social Media & Branding
+                    </p>
+                    <h3 class="h3 card-title">
+                      Aya's Cheesecakes: Indulge in Heavenly Delights
+                    </h3>
+                    <p class="card-text">
+                      Aya's is not just a cheesecake brand; it's a celebration
+                      of indulgence, crafted to elevate your taste buds to new
+                      heights. Immerse yourself in the world of exquisite
+                      flavors and velvety textures that define our heavenly
+                      cheesecakes.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://www.behance.net/gallery/189949791/Ayas-Cheesecake"
+                      class="btn-text"
+                      style="color: #656f69"
+                    >
+                      <span class="span">See Project</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                  <figure class="card-banner" data-reveal="right">
+                    <img src="assets/images/3.png" alt="" />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-x"
+                  style="background-color: #f2f2f2"
+                >
+                  <div class="card-content" data-reveal="right">
+                    <p class="card-tag" style="color: #666066">
+                      Social Media & Branding
+                    </p>
+                    <h3 class="h3 card-title">
+                      Croshir: Weaving Warmth, One Stitch at a Time
+                    </h3>
+                    <p class="card-text">
+                      Croshir is your go-to brand for meticulously crafted
+                      crochet products that redefine comfort and style. From
+                      snug blankets to fashionable accessories, each piece is an
+                      embodiment of the artistry and warmth that comes from the
+                      skillful hands of our crochet artisans.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://www.behance.net/gallery/190018367/Croshir"
+                      class="btn-text"
+                      style="color: #656f69"
+                    >
+                      <span class="span">See Project</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                  <figure class="card-banner" data-reveal="left">
+                    <img src="assets/images/4.png" alt="" />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-x"
+                  style="background-color: #f3f1f0"
+                >
+                  <div class="card-content">
+                    <p class="card-tag" style="color: #604b33">
+                      Social Media & branding
+                    </p>
+                    <h3 class="h3 card-title">Walaa Interior Design</h3>
+                    <p class="card-text">
+                      where innovation meets elegance, and spaces are
+                      transformed into captivating narratives. As a premier
+                      interior design architect, I pride myself on orchestrating
+                      bespoke experiences that redefine the art of living.
+                    </p>
+                  </div>
+                  <figure class="card-banner">
+                    <img src="assets/images/5.png" alt="" />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="project-card project-card-x"
+                  style="background-color: #ebeef5"
+                >
+                  <div class="card-content">
+                    <p class="card-tag">Branding</p>
+                    <h3 class="h3 card-title">UNSEEN</h3>
+                    <p class="card-text">
+                      Don't you sometimes feel something similar to what
+                      Chandler Bing once said: "Should I use my invisibility to
+                      fight crime or for evil?" UNSEEN is a brand that came from
+                      the idea of actually feeling invisible as if you can't be
+                      seen.
+                    </p>
+                  </div>
+                  <figure class="card-banner">
+                    <img src="assets/images/portfolio0-08.jpg" alt="" />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section contact" id="contact" aria-label="contact">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-content" data-reveal="left">
+                <div class="card-icon">
+                  <img
+                    src="assets/images/icon-5.svg"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                    alt="envelop icon"
+                  />
+                </div>
+                <h2 class="h2 section-title">
+                  If you like what you see, let's work together.
+                </h2>
+                <p class="section-text">
+                  I bring rapid solutions to make the life of my clients easier.
+                  Have any questions? Reach out to me from this contact form and
+                  I will get back to you shortly.
+                </p>
+              </div>
+              <form onsubmit="sendEmail(); reset(); return false;"
+                action="mailto:wafaagaafar@gmail.com"
+                class="contact-form"
+                data-reveal="right"
+              >
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                  />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email_address"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="message"
+                  class="input-field"
+                ></textarea>
+                <button type="submit" class="btn btn-secondary">
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p class="copyright">© 2022 codewithsadee. All rights reserved.</p>
+        <ul class="social-list">
+          <li>
+            <a target="_blank" href="https://dribbble.com/WafaJ3fr" class="social-link"
+              ><ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.behance.net/wafaagaafar" class="social-link"
+              ><ion-icon name="logo-behance"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
