@@ -501,6 +501,11 @@ footer .social-link{color: var(--charcoal);}
   .project-card{--padding: 68px;}
   .contact-card{padding: 68px;}
 }
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width: 768px){
   .container{max-width: 720px;}
@@ -522,9 +527,10 @@ footer .social-link{color: var(--charcoal);}
 
   footer .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
+  .social-link{size: 40px;}
   .copyright{margin-block-end: 0;}
 }
 
