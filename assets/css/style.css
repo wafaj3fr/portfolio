@@ -394,6 +394,13 @@ padding-block: 6px;}
 
 .about-card .card-title{margin-block: 16px 10px;}
 
+.skill-list{
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: space-around;
+  /* width: fit-content; */
+}
 
 /*-----------------------------------*\
   #PROJECTS
