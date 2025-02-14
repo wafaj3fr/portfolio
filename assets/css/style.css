@@ -236,7 +236,7 @@ body.nav-active{overflow: hidden;}
 \*-----------------------------------*/
 
 
-.header{position: absolute ;
+.header{
 top: 0;
 left: 0;
 background-color: var(--white);width: 100%;padding-block: 40px;box-shadow: var(--shadow-1);z-index: 4;}
@@ -570,6 +570,7 @@ footer .social-link{color: var(--charcoal);}
     font-size: 1.8rem;
   }
   .header {
+    position: absolute;
     top: 45px;
     max-width: 960px;
     left: 50%;
